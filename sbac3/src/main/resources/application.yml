@@ -45,6 +45,17 @@ eureka:
       defaultZone: http://eureka:password@localhost:8761/eureka/
 
 
+SERVICO1:
+  ribbon:
+    eureka:
+      enabled: true
+    ServerListRefreshInterval: 15000
+#    NIWSServerListClassName: com.netflix.niws.loadbalancer.DiscoveryEnabledNIWSServerList
+
+feign:
+  hystrix:
+    enabled: true
+    
 # If Spring Security is on the classpath and no other WebSecurityConfigurerAdapter is present, the actuators are secured by Spring Boot auto-config.
 
 management:
