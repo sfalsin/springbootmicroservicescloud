@@ -2,12 +2,17 @@ server:
   port: 8082
 
 spring:
+  boot:
+    admin:
+      client:
+        url:  http://127.0.0.1:8081
+        enabled: true
   application:
-    name: foo-service
-  security:
-    user:
-      name: foo
-      password: password
+    name: servico1
+  #security:
+  #  user:
+  #    name: eureka
+  #    password: password
 
 # username and password will be sent to eureka from where the spring boot admin will fetch
 #{
