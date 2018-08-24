@@ -1,0 +1,10 @@
+package com.example.demo.domain;
+
+import java.io.Serializable;
+
+public class Rating implements Serializable {
+	
+	private Integer id;
+	private String name;
+	
+}

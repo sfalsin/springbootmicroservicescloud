@@ -1,0 +1,18 @@
+package com.example.demo.config;
+
+@Configuration
+@EnableWebSecurity
+public class WebSecurityConfiguration extends WebSecurityConfigurerAdapter {
+
+     @Override
+      protected void configure(HttpSecurity http) throws Exception {
+         http.authorizeRequests()
+            .antMatchers(HttpMethod.GET, "/v2/api-docs").permitAll()
+            .antMatchers(HttpMethod.GET,"/swagger-resources").permitAll()
+            .antMatchers(HttpMethod.GET,"/configuration/**").permitAll()
+            .antMatchers(HttpMethod.GET,"/documentation/**").permitAll()
+            .antMatchers("/**").fullyAuthenticated()
+            .and().csrf().disable();
+      }
+}
+

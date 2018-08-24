@@ -1,0 +1,12 @@
+package br.com.meupag.eurekasrvr;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class EurekasrvrApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(EurekasrvrApplication.class, args);
+	}
+}
