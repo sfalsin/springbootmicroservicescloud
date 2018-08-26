@@ -7641,3 +7641,58 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.ca
 2018-08-26 16:21:26,920 [Worker-79: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-08-26 16:21:26,923 [Worker-79: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-08-26 16:21:26,924 [Worker-79: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 16:42:28,176 [Worker-90: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 16:42:28,177 [Worker-90: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 16:42:28,181 [Worker-90: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 16:42:28,184 [Worker-90: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 16:42:28,184 [Worker-90: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 16:51:22,216 [Worker-89: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationconsumer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationconsumer/pom.xml.
+2018-08-26 16:51:22,943 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationconsumer/src/main/java
+2018-08-26 16:51:22,944 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationconsumer/src/main/resources
+2018-08-26 16:51:22,951 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationconsumer/src/main/resources
+2018-08-26 16:51:22,963 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationconsumer/src/test/java
+2018-08-26 16:51:23,157 [Worker-89: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 1 sec
+2018-08-26 16:51:23,159 [Worker-89: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-26 16:51:23,489 [Worker-89: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationconsumer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationconsumer/pom.xml.
+2018-08-26 16:51:24,164 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationconsumer/src/main/java
+2018-08-26 16:51:24,165 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationconsumer/src/main/resources
+2018-08-26 16:51:24,167 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationconsumer/src/main/resources
+2018-08-26 16:51:24,174 [Worker-89: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationconsumer/src/test/java
+2018-08-26 16:51:24,293 [Worker-89: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-08-26 16:53:39,908 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-26 16:53:40,247 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationconsumer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationconsumer/pom.xml.
+2018-08-26 16:53:40,796 [Worker-97: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationconsumer/src/main/java
+2018-08-26 16:53:40,796 [Worker-97: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationconsumer/src/main/resources
+2018-08-26 16:53:40,796 [Worker-97: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationconsumer/src/main/resources
+2018-08-26 16:53:40,797 [Worker-97: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationconsumer/src/test/java
+2018-08-26 16:53:40,960 [Worker-97: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-08-26 16:56:45,618 [Worker-95: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationproducer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationproducer/pom.xml.
+2018-08-26 16:56:46,361 [Worker-95: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 16:56:46,362 [Worker-95: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 16:56:46,364 [Worker-95: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 16:56:46,372 [Worker-95: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 16:56:46,372 [Worker-95: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 16:57:17,202 [Worker-91: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-26 16:57:17,526 [Worker-91: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationconsumer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationconsumer/pom.xml.
+2018-08-26 16:57:18,158 [Worker-91: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationconsumer/src/main/java
+2018-08-26 16:57:18,158 [Worker-91: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationconsumer/src/main/resources
+2018-08-26 16:57:18,158 [Worker-91: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationconsumer/src/main/resources
+2018-08-26 16:57:18,159 [Worker-91: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationconsumer/src/test/java
+2018-08-26 16:57:18,317 [Worker-91: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-08-26 16:58:16,150 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-26 16:58:16,684 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationconsumer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationconsumer/pom.xml.
+2018-08-26 16:58:17,398 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationconsumer/src/main/java
+2018-08-26 16:58:17,399 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationconsumer/src/main/resources
+2018-08-26 16:58:17,399 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationconsumer/src/main/resources
+2018-08-26 16:58:17,399 [Worker-89: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationconsumer/src/test/java
+2018-08-26 16:58:17,542 [Worker-89: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-08-26 16:58:30,740 [Worker-100: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 16:58:30,740 [Worker-100: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 16:58:30,742 [Worker-100: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 16:58:30,745 [Worker-100: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 16:58:30,745 [Worker-100: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 16:59:23,846 [Worker-91: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 16:59:23,848 [Worker-91: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 16:59:23,849 [Worker-91: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 16:59:23,851 [Worker-91: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 16:59:23,852 [Worker-91: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
