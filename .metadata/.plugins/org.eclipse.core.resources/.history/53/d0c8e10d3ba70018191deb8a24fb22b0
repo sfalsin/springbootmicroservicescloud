@@ -1,5 +1,0 @@
-package br.com.meupag.eurekasrvr;
-
-public class WebSecurityConfig {
-
-}

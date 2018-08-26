@@ -1,5 +1,0 @@
-package br.com.meupag.sbac1.config;
-
-public class SecurityPermitAllConfig {
-
-}
