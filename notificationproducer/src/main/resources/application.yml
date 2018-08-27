@@ -14,23 +14,6 @@ spring:
   #    name: eureka
   #    password: password
 
-# username and password will be sent to eureka from where the spring boot admin will fetch
-#{
-#    "registration": {
-#        "name": "FOO-SERVICE",
-#        "managementUrl": "http://10.44.66.87:8080/actuator",
-#        "healthUrl": "http://10.44.66.87:8080/actuator/health",
-#        "serviceUrl": "http://10.44.66.87:8080/",
-#        "source": "discovery",
-#        "metadata": {
-#            "user.name": "foo",
-#            "management.port": "8080",
-#            "jmx.port": "52698",
-#            "user.password": "******"
-#        }
-#    }
-#}
-
 
 # When using Spring Cloud Discovery, you must be aware that anybody who can query your service registry can obtain the credentials.
 
@@ -57,6 +40,20 @@ management:
     health:
       show-details: ALWAYS
       
+pag:
+  api:
+    path: "/"   
+
+camel:
+  springboot:
+    # The Camel context name
+    name: ServicesRest
+
+
+# The application configuration properties
+quickstart:
+  generateOrderPeriod: 10s
+  processOrderPeriod: 30s
       
 kafka:
   server: localhost

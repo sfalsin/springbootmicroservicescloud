@@ -6,6 +6,8 @@ import org.apache.camel.spi.ThreadPoolProfile;
 import org.apache.camel.spring.boot.CamelContextConfiguration;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
 
 @Configuration
 public class CamelConfig {
@@ -36,4 +38,12 @@ public class CamelConfig {
 			}
 		};
 	}
+	
+    @Controller
+    class SwaggerWelcome {
+        @RequestMapping("/swagger-ui")
+        public String redirectToUi() {
+            return "redirect:/webjars/swagger-ui/index.html?url=/camel/api-doc&validatorUrl=";
+        }
+    }
 }

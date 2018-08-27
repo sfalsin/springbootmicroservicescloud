@@ -7696,3 +7696,757 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.apache.ca
 2018-08-26 16:59:23,849 [Worker-91: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2018-08-26 16:59:23,851 [Worker-91: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2018-08-26 16:59:23,852 [Worker-91: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 19:25:41,741 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationproducer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationproducer/pom.xml.
+2018-08-26 19:25:43,630 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-servlet-starter/2.22.0/camel-servlet-starter-2.22.0.pom
+2018-08-26 19:25:43,851 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-servlet-starter/2.22.0/camel-servlet-starter-2.22.0.pom
+2018-08-26 19:25:44,249 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-servlet/2.22.0/camel-servlet-2.22.0.pom
+2018-08-26 19:25:44,461 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-servlet/2.22.0/camel-servlet-2.22.0.pom
+2018-08-26 19:25:44,720 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.4.0.Final/arquillian-bom-1.4.0.Final.pom
+2018-08-26 19:25:45,399 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/arquillian/arquillian-bom/1.4.0.Final/arquillian-bom-1.4.0.Final.pom
+2018-08-26 19:25:45,608 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.6/shrinkwrap-bom-1.2.6.pom
+2018-08-26 19:25:45,979 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/shrinkwrap-bom/1.2.6/shrinkwrap-bom-1.2.6.pom
+2018-08-26 19:25:46,298 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.6/shrinkwrap-resolver-bom-2.2.6.pom
+2018-08-26 19:25:46,599 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/resolver/shrinkwrap-resolver-bom/2.2.6/shrinkwrap-resolver-bom-2.2.6.pom
+2018-08-26 19:25:46,802 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0/shrinkwrap-descriptors-bom-2.0.0.pom
+2018-08-26 19:25:47,413 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/jboss/shrinkwrap/descriptors/shrinkwrap-descriptors-bom/2.0.0/shrinkwrap-descriptors-bom-2.0.0.pom
+2018-08-26 19:25:47,885 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-common/2.22.0/camel-http-common-2.22.0.pom
+2018-08-26 19:25:48,338 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-common/2.22.0/camel-http-common-2.22.0.pom
+2018-08-26 19:25:48,649 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-jackson-starter/2.22.0/camel-jackson-starter-2.22.0.pom
+2018-08-26 19:25:48,958 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-jackson-starter/2.22.0/camel-jackson-starter-2.22.0.pom
+2018-08-26 19:25:49,472 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-jackson/2.22.0/camel-jackson-2.22.0.pom
+2018-08-26 19:25:49,874 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-jackson/2.22.0/camel-jackson-2.22.0.pom
+2018-08-26 19:25:50,179 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-swagger-java-starter/2.22.0/camel-swagger-java-starter-2.22.0.pom
+2018-08-26 19:25:50,492 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-swagger-java-starter/2.22.0/camel-swagger-java-starter-2.22.0.pom
+2018-08-26 19:25:50,806 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-swagger-java/2.22.0/camel-swagger-java-2.22.0.pom
+2018-08-26 19:25:51,512 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-swagger-java/2.22.0/camel-swagger-java-2.22.0.pom
+2018-08-26 19:25:51,787 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.6/jackson-datatype-joda-2.9.6.pom
+2018-08-26 19:25:51,995 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.6/jackson-datatype-joda-2.9.6.pom
+2018-08-26 19:25:52,193 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.6/jackson-dataformat-yaml-2.9.6.pom
+2018-08-26 19:25:52,378 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.6/jackson-dataformat-yaml-2.9.6.pom
+2018-08-26 19:25:52,844 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.9.6/jackson-dataformats-text-2.9.6.pom
+2018-08-26 19:25:53,149 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformats-text/2.9.6/jackson-dataformats-text-2.9.6.pom
+2018-08-26 19:25:53,559 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.9.6/jackson-jaxrs-json-provider-2.9.6.pom
+2018-08-26 19:25:54,075 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.9.6/jackson-jaxrs-json-provider-2.9.6.pom
+2018-08-26 19:25:54,493 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-providers/2.9.6/jackson-jaxrs-providers-2.9.6.pom
+2018-08-26 19:25:54,802 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-providers/2.9.6/jackson-jaxrs-providers-2.9.6.pom
+2018-08-26 19:25:55,204 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.9.6/jackson-jaxrs-base-2.9.6.pom
+2018-08-26 19:25:55,504 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.9.6/jackson-jaxrs-base-2.9.6.pom
+2018-08-26 19:25:55,812 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-core/1.5.20/swagger-core-1.5.20.pom
+2018-08-26 19:25:56,121 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-core/1.5.20/swagger-core-1.5.20.pom
+2018-08-26 19:25:57,141 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-jaxrs/1.5.20/swagger-jaxrs-1.5.20.pom
+2018-08-26 19:25:57,449 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-jaxrs/1.5.20/swagger-jaxrs-1.5.20.pom
+2018-08-26 19:25:57,763 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11.pom
+2018-08-26 19:25:58,073 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11.pom
+2018-08-26 19:25:58,368 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.pom
+2018-08-26 19:25:58,679 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/javassist/javassist/3.21.0-GA/javassist-3.21.0-GA.pom
+2018-08-26 19:25:59,091 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-parser/1.0.36/swagger-parser-1.0.36.pom
+2018-08-26 19:25:59,396 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-parser/1.0.36/swagger-parser-1.0.36.pom
+2018-08-26 19:25:59,703 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-parser-project/1.0.36/swagger-parser-project-1.0.36.pom
+2018-08-26 19:26:00,319 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-parser-project/1.0.36/swagger-parser-project-1.0.36.pom
+2018-08-26 19:26:00,621 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25.pom
+2018-08-26 19:26:01,137 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25.pom
+2018-08-26 19:26:01,549 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-servlet-starter/2.22.0/camel-servlet-starter-2.22.0.jar
+2018-08-26 19:26:02,674 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-servlet-starter/2.22.0/camel-servlet-starter-2.22.0.jar
+2018-08-26 19:26:02,982 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-servlet/2.22.0/camel-servlet-2.22.0.jar
+2018-08-26 19:26:03,901 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-servlet/2.22.0/camel-servlet-2.22.0.jar
+2018-08-26 19:26:04,249 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-common/2.22.0/camel-http-common-2.22.0.jar
+2018-08-26 19:26:06,572 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-common/2.22.0/camel-http-common-2.22.0.jar
+2018-08-26 19:26:07,151 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-jackson-starter/2.22.0/camel-jackson-starter-2.22.0.jar
+2018-08-26 19:26:08,105 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-jackson-starter/2.22.0/camel-jackson-starter-2.22.0.jar
+2018-08-26 19:26:08,408 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-jackson/2.22.0/camel-jackson-2.22.0.jar
+2018-08-26 19:26:09,434 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-jackson/2.22.0/camel-jackson-2.22.0.jar
+2018-08-26 19:26:09,789 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-swagger-java-starter/2.22.0/camel-swagger-java-starter-2.22.0.jar
+2018-08-26 19:26:10,563 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-swagger-java-starter/2.22.0/camel-swagger-java-starter-2.22.0.jar
+2018-08-26 19:26:10,865 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-swagger-java/2.22.0/camel-swagger-java-2.22.0.jar
+2018-08-26 19:26:11,785 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-swagger-java/2.22.0/camel-swagger-java-2.22.0.jar
+2018-08-26 19:26:12,362 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.6/jackson-datatype-joda-2.9.6.jar
+2018-08-26 19:26:13,392 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.6/jackson-datatype-joda-2.9.6.jar
+2018-08-26 19:26:13,967 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.6/jackson-dataformat-yaml-2.9.6.jar
+2018-08-26 19:26:14,653 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.6/jackson-dataformat-yaml-2.9.6.jar
+2018-08-26 19:26:14,871 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.9.6/jackson-jaxrs-json-provider-2.9.6.jar
+2018-08-26 19:26:15,170 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.9.6/jackson-jaxrs-json-provider-2.9.6.jar
+2018-08-26 19:26:15,490 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.9.6/jackson-jaxrs-base-2.9.6.jar
+2018-08-26 19:26:16,908 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.9.6/jackson-jaxrs-base-2.9.6.jar
+2018-08-26 19:26:17,224 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-core/1.5.20/swagger-core-1.5.20.jar
+2018-08-26 19:26:19,159 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-core/1.5.20/swagger-core-1.5.20.jar
+2018-08-26 19:26:19,468 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-jaxrs/1.5.20/swagger-jaxrs-1.5.20.jar
+2018-08-26 19:26:21,002 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-jaxrs/1.5.20/swagger-jaxrs-1.5.20.jar
+2018-08-26 19:26:21,324 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11.jar
+2018-08-26 19:26:23,357 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11.jar
+2018-08-26 19:26:23,598 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-parser/1.0.36/swagger-parser-1.0.36.jar
+2018-08-26 19:26:25,115 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-parser/1.0.36/swagger-parser-1.0.36.jar
+2018-08-26 19:26:25,775 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25.jar
+2018-08-26 19:26:26,439 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25.jar
+2018-08-26 19:26:27,376 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:26:27,377 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:26:27,378 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:26:27,380 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:26:27,381 [Worker-106: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 19:26:30,880 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-servlet-starter/2.22.0/camel-servlet-starter-2.22.0-sources.jar
+2018-08-26 19:26:31,570 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-servlet-starter/2.22.0/camel-servlet-starter-2.22.0-sources.jar
+2018-08-26 19:26:31,611 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-servlet-starter:2.22.0
+2018-08-26 19:26:32,066 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-servlet/2.22.0/camel-servlet-2.22.0-sources.jar
+2018-08-26 19:26:32,885 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-servlet/2.22.0/camel-servlet-2.22.0-sources.jar
+2018-08-26 19:26:32,918 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-servlet:2.22.0
+2018-08-26 19:26:33,196 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-common/2.22.0/camel-http-common-2.22.0-sources.jar
+2018-08-26 19:26:35,539 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-http-common/2.22.0/camel-http-common-2.22.0-sources.jar
+2018-08-26 19:26:35,587 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-http-common:2.22.0
+2018-08-26 19:26:35,850 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-jackson-starter/2.22.0/camel-jackson-starter-2.22.0-sources.jar
+2018-08-26 19:26:36,452 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-jackson-starter/2.22.0/camel-jackson-starter-2.22.0-sources.jar
+2018-08-26 19:26:36,504 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-jackson-starter:2.22.0
+2018-08-26 19:26:37,181 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-jackson/2.22.0/camel-jackson-2.22.0-sources.jar
+2018-08-26 19:26:37,898 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-jackson/2.22.0/camel-jackson-2.22.0-sources.jar
+2018-08-26 19:26:37,939 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-jackson:2.22.0
+2018-08-26 19:26:38,207 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-swagger-java-starter/2.22.0/camel-swagger-java-starter-2.22.0-sources.jar
+2018-08-26 19:26:38,862 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-swagger-java-starter/2.22.0/camel-swagger-java-starter-2.22.0-sources.jar
+2018-08-26 19:26:38,928 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-swagger-java-starter:2.22.0
+2018-08-26 19:26:39,641 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/camel/camel-swagger-java/2.22.0/camel-swagger-java-2.22.0-sources.jar
+2018-08-26 19:26:42,402 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/camel/camel-swagger-java/2.22.0/camel-swagger-java-2.22.0-sources.jar
+2018-08-26 19:26:42,440 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-swagger-java:2.22.0
+2018-08-26 19:26:42,625 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.6/jackson-datatype-joda-2.9.6-sources.jar
+2018-08-26 19:26:43,837 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/datatype/jackson-datatype-joda/2.9.6/jackson-datatype-joda-2.9.6-sources.jar
+2018-08-26 19:26:43,900 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-joda:2.9.6
+2018-08-26 19:26:44,255 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.6/jackson-dataformat-yaml-2.9.6-sources.jar
+2018-08-26 19:26:45,370 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/dataformat/jackson-dataformat-yaml/2.9.6/jackson-dataformat-yaml-2.9.6-sources.jar
+2018-08-26 19:26:45,413 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.6
+2018-08-26 19:26:45,611 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.9.6/jackson-jaxrs-json-provider-2.9.6-sources.jar
+2018-08-26 19:26:46,294 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-json-provider/2.9.6/jackson-jaxrs-json-provider-2.9.6-sources.jar
+2018-08-26 19:26:46,335 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.6
+2018-08-26 19:26:46,609 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.9.6/jackson-jaxrs-base-2.9.6-sources.jar
+2018-08-26 19:26:47,524 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/com/fasterxml/jackson/jaxrs/jackson-jaxrs-base/2.9.6/jackson-jaxrs-base-2.9.6-sources.jar
+2018-08-26 19:26:47,562 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.9.6
+2018-08-26 19:26:47,770 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-core/1.5.20/swagger-core-1.5.20-sources.jar
+2018-08-26 19:26:49,366 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-core/1.5.20/swagger-core-1.5.20-sources.jar
+2018-08-26 19:26:49,427 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger:swagger-core:1.5.20
+2018-08-26 19:26:49,883 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-jaxrs/1.5.20/swagger-jaxrs-1.5.20-sources.jar
+2018-08-26 19:26:51,107 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-jaxrs/1.5.20/swagger-jaxrs-1.5.20-sources.jar
+2018-08-26 19:26:51,162 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger:swagger-jaxrs:1.5.20
+2018-08-26 19:26:51,417 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11-sources.jar
+2018-08-26 19:26:52,538 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/reflections/reflections/0.9.11/reflections-0.9.11-sources.jar
+2018-08-26 19:26:52,599 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.reflections:reflections:0.9.11
+2018-08-26 19:26:52,827 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/io/swagger/swagger-parser/1.0.36/swagger-parser-1.0.36-sources.jar
+2018-08-26 19:26:53,667 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/io/swagger/swagger-parser/1.0.36/swagger-parser-1.0.36-sources.jar
+2018-08-26 19:26:53,757 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger:swagger-parser:1.0.36
+2018-08-26 19:26:54,079 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25-sources.jar
+2018-08-26 19:26:54,996 [Worker-108: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/slf4j/slf4j-ext/1.7.25/slf4j-ext-1.7.25-sources.jar
+2018-08-26 19:26:55,040 [Worker-108: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-ext:1.7.25
+2018-08-26 19:26:56,182 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-servlet-starter:2.22.0
+2018-08-26 19:26:56,184 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-servlet:2.22.0
+2018-08-26 19:26:56,186 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-http-common:2.22.0
+2018-08-26 19:26:56,189 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-jackson-starter:2.22.0
+2018-08-26 19:26:56,192 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-jackson:2.22.0
+2018-08-26 19:26:56,198 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-swagger-java-starter:2.22.0
+2018-08-26 19:26:56,200 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-swagger-java:2.22.0
+2018-08-26 19:26:56,202 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-joda:2.9.6
+2018-08-26 19:26:56,205 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.6
+2018-08-26 19:26:56,207 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.6
+2018-08-26 19:26:56,209 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.9.6
+2018-08-26 19:26:56,219 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger:swagger-core:1.5.20
+2018-08-26 19:26:56,221 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger:swagger-jaxrs:1.5.20
+2018-08-26 19:26:56,223 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.reflections:reflections:0.9.11
+2018-08-26 19:26:56,225 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger:swagger-parser:1.0.36
+2018-08-26 19:26:56,228 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-ext:1.7.25
+2018-08-26 19:26:56,230 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-servlet-starter:2.22.0
+2018-08-26 19:26:56,232 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-servlet:2.22.0
+2018-08-26 19:26:56,234 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-http-common:2.22.0
+2018-08-26 19:26:56,235 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-jackson-starter:2.22.0
+2018-08-26 19:26:56,239 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-jackson:2.22.0
+2018-08-26 19:26:56,243 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-swagger-java-starter:2.22.0
+2018-08-26 19:26:56,250 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.camel:camel-swagger-java:2.22.0
+2018-08-26 19:26:56,255 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.datatype:jackson-datatype-joda:2.9.6
+2018-08-26 19:26:56,259 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:2.9.6
+2018-08-26 19:26:56,266 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.9.6
+2018-08-26 19:26:56,268 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.9.6
+2018-08-26 19:26:56,278 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger:swagger-core:1.5.20
+2018-08-26 19:26:56,280 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger:swagger-jaxrs:1.5.20
+2018-08-26 19:26:56,282 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.reflections:reflections:0.9.11
+2018-08-26 19:26:56,285 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for io.swagger:swagger-parser:1.0.36
+2018-08-26 19:26:56,291 [Worker-112: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.slf4j:slf4j-ext:1.7.25
+2018-08-26 19:28:31,270 [Worker-105: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:28:31,270 [Worker-105: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:28:31,275 [Worker-105: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:28:31,278 [Worker-105: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:28:31,278 [Worker-105: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 19:29:38,711 [Worker-113: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:29:38,711 [Worker-113: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:29:38,712 [Worker-113: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:29:38,715 [Worker-113: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:29:38,717 [Worker-113: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 19:31:20,190 [Worker-106: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-26 19:31:20,548 [Worker-106: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationproducer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationproducer/pom.xml.
+2018-08-26 19:31:21,209 [Worker-106: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/main/java
+2018-08-26 19:31:21,209 [Worker-106: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 19:31:21,210 [Worker-106: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 19:31:21,210 [Worker-106: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/test/java
+2018-08-26 19:31:21,376 [Worker-106: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-08-26 19:31:31,666 [Worker-106: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:31:31,667 [Worker-106: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:31:31,669 [Worker-106: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:31:31,675 [Worker-106: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:31:31,675 [Worker-106: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 19:32:45,067 [Worker-101: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:32:45,068 [Worker-101: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:32:45,069 [Worker-101: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:32:45,072 [Worker-101: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:32:45,072 [Worker-101: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 19:34:54,101 [Worker-116: Cleaning all projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.meupag:sbac1:0.0.1-SNAPSHOT @ /home/sfalsin/lab/sbac1/pom.xml.
+2018-08-26 19:34:55,433 [Worker-116: Cleaning all projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.meupag:sbac2:0.0.1-SNAPSHOT @ /home/sfalsin/lab/sbac2/pom.xml.
+2018-08-26 19:34:56,373 [Worker-116: Cleaning all projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.meupag:sbac3:0.0.1-SNAPSHOT @ /home/sfalsin/lab/sbac3/pom.xml.
+2018-08-26 19:34:57,576 [Worker-116: Cleaning all projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.meupag:sbas:0.0.1-SNAPSHOT @ /home/sfalsin/lab/sbas/pom.xml.
+2018-08-26 19:34:59,380 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:34:59,380 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:34:59,383 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:34:59,385 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:34:59,385 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 19:35:00,300 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:35:00,300 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:35:00,303 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:35:00,306 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:35:00,306 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 19:35:02,808 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:35:02,809 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:35:02,818 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:35:02,821 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:35:02,821 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbac1/src/test/resources
+2018-08-26 19:35:04,789 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:35:04,790 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:35:04,794 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:35:04,797 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:35:04,797 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbac2/src/test/resources
+2018-08-26 19:35:07,590 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:35:07,591 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:35:07,685 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:35:07,688 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:35:07,689 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbac3/src/test/resources
+2018-08-26 19:35:11,022 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:35:11,023 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:35:11,024 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:35:11,027 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:35:11,027 [Worker-114: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbas/src/test/resources
+2018-08-26 19:35:20,307 [Worker-120: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:35:20,308 [Worker-120: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:35:20,310 [Worker-120: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:35:20,315 [Worker-120: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:35:20,316 [Worker-120: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 19:36:10,520 [Worker-118: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:36:10,522 [Worker-118: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:36:10,523 [Worker-118: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:36:10,526 [Worker-118: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:36:10,526 [Worker-118: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 19:40:05,585 [Worker-123: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ /home/sfalsin/lab/demo/pom.xml.
+2018-08-26 19:43:10,754 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-26 19:43:11,363 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationproducer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationproducer/pom.xml.
+2018-08-26 19:43:12,126 [Worker-123: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/main/java
+2018-08-26 19:43:12,127 [Worker-123: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 19:43:12,127 [Worker-123: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 19:43:12,127 [Worker-123: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/test/java
+2018-08-26 19:43:12,290 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-08-26 19:43:24,373 [Worker-125: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:43:24,374 [Worker-125: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:43:24,382 [Worker-125: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:43:24,385 [Worker-125: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:43:24,386 [Worker-125: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 19:45:33,941 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:45:33,942 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:45:33,943 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:45:33,945 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:45:33,945 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/demo/src/test/resources
+2018-08-26 19:45:36,435 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:45:36,436 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:45:36,439 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:45:36,441 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:45:36,442 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 19:45:37,445 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:45:37,446 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:45:37,447 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:45:37,449 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:45:37,449 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 19:45:37,980 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:45:37,981 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:45:37,984 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:45:37,991 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:45:37,991 [Worker-115: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbas/src/test/resources
+2018-08-26 19:45:45,878 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-26 19:45:46,226 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationproducer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationproducer/pom.xml.
+2018-08-26 19:45:46,904 [Worker-123: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/main/java
+2018-08-26 19:45:46,904 [Worker-123: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 19:45:46,904 [Worker-123: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 19:45:46,905 [Worker-123: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/test/java
+2018-08-26 19:45:47,039 [Worker-123: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-08-26 19:45:52,110 [Worker-131: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:45:52,111 [Worker-131: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:45:52,112 [Worker-131: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:45:52,114 [Worker-131: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:45:52,115 [Worker-131: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 19:53:44,721 [Worker-132: Cleaning all projects] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationproducer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationproducer/pom.xml.
+2018-08-26 19:53:46,211 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:53:46,211 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:53:46,212 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:53:46,214 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:53:46,214 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/demo/src/test/resources
+2018-08-26 19:53:47,523 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:53:47,524 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:53:47,537 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:53:47,540 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:53:47,540 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 19:53:50,007 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:53:50,007 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:53:50,009 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:53:50,011 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:53:50,011 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 19:53:50,405 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:53:50,406 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:53:50,409 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:53:50,412 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:53:50,412 [Worker-134: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbas/src/test/resources
+2018-08-26 19:54:35,034 [Worker-133: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:54:35,035 [Worker-133: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 19:54:35,037 [Worker-133: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 19:54:35,040 [Worker-133: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 19:54:35,040 [Worker-133: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 20:16:47,036 [Worker-142: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:16:47,037 [Worker-142: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:16:47,039 [Worker-142: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:16:47,041 [Worker-142: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:16:47,041 [Worker-142: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 20:23:29,198 [Worker-151: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationproducer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationproducer/pom.xml.
+2018-08-26 20:24:27,247 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-26 20:24:27,549 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationproducer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationproducer/pom.xml.
+2018-08-26 20:24:30,842 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/2.9.2/swagger-ui-2.9.2.pom
+2018-08-26 20:24:30,845 [Worker-153: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.webjars:swagger-ui:jar:2.9.2 is missing, no dependency information available
+2018-08-26 20:24:31,251 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/2.9.2/swagger-ui-2.9.2.jar
+2018-08-26 20:24:31,331 [Worker-153: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/main/java
+2018-08-26 20:24:31,331 [Worker-153: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 20:24:31,332 [Worker-153: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 20:24:31,332 [Worker-153: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/test/java
+2018-08-26 20:24:31,505 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 4 sec
+2018-08-26 20:24:33,250 [Worker-152: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.webjars:swagger-ui:jar:2.9.2 is missing, no dependency information available
+2018-08-26 20:24:34,432 [Worker-152: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/2.9.2/swagger-ui-2.9.2-sources.jar
+2018-08-26 20:24:34,434 [Worker-152: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.webjars:swagger-ui:2.9.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:swagger-ui:jar:sources:2.9.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+2018-08-26 20:24:34,731 [Worker-152: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/2.9.2/swagger-ui-2.9.2-javadoc.jar
+2018-08-26 20:24:34,732 [Worker-152: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.webjars:swagger-ui:2.9.2
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:swagger-ui:jar:javadoc:2.9.2
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+2018-08-26 20:25:53,562 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-26 20:25:53,872 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationproducer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationproducer/pom.xml.
+2018-08-26 20:25:55,890 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/3.17.6/swagger-ui-3.17.6.pom
+2018-08-26 20:25:57,264 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/3.17.6/swagger-ui-3.17.6.pom
+2018-08-26 20:25:57,569 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/3.17.6/webjars-locator-3.17.6.pom
+2018-08-26 20:25:57,571 [Worker-153: Updating Maven Project] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.webjars:webjars-locator:jar:3.17.6 is missing, no dependency information available
+2018-08-26 20:25:58,041 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/3.17.6/swagger-ui-3.17.6.jar
+2018-08-26 20:26:10,268 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/3.17.6/swagger-ui-3.17.6.jar
+2018-08-26 20:26:10,582 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/3.17.6/webjars-locator-3.17.6.jar
+2018-08-26 20:26:10,819 [Worker-153: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/main/java
+2018-08-26 20:26:10,819 [Worker-153: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 20:26:10,819 [Worker-153: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 20:26:10,820 [Worker-153: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/test/java
+2018-08-26 20:26:10,943 [Worker-153: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 17 sec
+2018-08-26 20:26:12,678 [Worker-154: Download sources and javadoc] WARN  o.e.m.c.i.embedder.EclipseLogger - The POM for org.webjars:webjars-locator:jar:3.17.6 is missing, no dependency information available
+2018-08-26 20:26:14,182 [Worker-154: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/3.17.6/swagger-ui-3.17.6-sources.jar
+2018-08-26 20:26:14,186 [Worker-154: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.webjars:swagger-ui:3.17.6
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:swagger-ui:jar:sources:3.17.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+2018-08-26 20:26:14,577 [Worker-154: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/3.17.6/webjars-locator-3.17.6-sources.jar
+2018-08-26 20:26:14,580 [Worker-154: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download sources for org.webjars:webjars-locator:3.17.6
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:webjars-locator:jar:sources:3.17.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:254) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+2018-08-26 20:26:15,141 [Worker-154: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/3.17.6/swagger-ui-3.17.6-javadoc.jar
+2018-08-26 20:26:32,283 [Worker-154: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/swagger-ui/3.17.6/swagger-ui-3.17.6-javadoc.jar
+2018-08-26 20:26:32,426 [Worker-154: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded javadoc for org.webjars:swagger-ui:3.17.6
+2018-08-26 20:26:32,684 [Worker-154: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/3.17.6/webjars-locator-3.17.6-javadoc.jar
+2018-08-26 20:26:32,686 [Worker-154: Download sources and javadoc] ERROR o.e.m.j.internal.DownloadSourcesJob - Could not download javadoc for org.webjars:webjars-locator:3.17.6
+org.eclipse.core.runtime.CoreException: Could not resolve artifact org.webjars:webjars-locator:jar:javadoc:3.17.6
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:776) ~[org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl$5.call(MavenImpl.java:1) ~[org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:112) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:743) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.resolve(MavenImpl.java:720) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.download(DownloadSourcesJob.java:279) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadAttachments(DownloadSourcesJob.java:265) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.downloadMaven(DownloadSourcesJob.java:221) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:161) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:137) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob$1.call(DownloadSourcesJob.java:1) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.executeBare(MavenExecutionContext.java:177) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:151) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenExecutionContext.execute(MavenExecutionContext.java:99) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.core.internal.embedder.MavenImpl.execute(MavenImpl.java:1355) [org.eclipse.m2e.core_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.m2e.jdt.internal.DownloadSourcesJob.run(DownloadSourcesJob.java:135) [org.eclipse.m2e.jdt_1.9.0.20180606-2036.jar:na]
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:60) [org.eclipse.core.jobs_3.10.0.v20180427-1454.jar:na]
+2018-08-26 20:27:06,484 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-26 20:27:06,792 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationproducer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationproducer/pom.xml.
+2018-08-26 20:27:08,742 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/0.34/webjars-locator-0.34.pom
+2018-08-26 20:27:08,986 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/0.34/webjars-locator-0.34.pom
+2018-08-26 20:27:09,248 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/webjars-locator-core/0.35/webjars-locator-core-0.35.pom
+2018-08-26 20:27:09,557 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/webjars-locator-core/0.35/webjars-locator-core-0.35.pom
+2018-08-26 20:27:09,995 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/0.34/webjars-locator-0.34.jar
+2018-08-26 20:27:10,374 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/0.34/webjars-locator-0.34.jar
+2018-08-26 20:27:10,699 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/webjars-locator-core/0.35/webjars-locator-core-0.35.jar
+2018-08-26 20:27:11,087 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/webjars-locator-core/0.35/webjars-locator-core-0.35.jar
+2018-08-26 20:27:11,402 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar
+2018-08-26 20:27:15,083 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9.jar
+2018-08-26 20:27:15,324 [Worker-149: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/main/java
+2018-08-26 20:27:15,324 [Worker-149: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 20:27:15,325 [Worker-149: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 20:27:15,325 [Worker-149: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/test/java
+2018-08-26 20:27:15,461 [Worker-149: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 8 sec
+2018-08-26 20:27:19,387 [Worker-155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/0.34/webjars-locator-0.34-sources.jar
+2018-08-26 20:27:20,184 [Worker-155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/webjars-locator/0.34/webjars-locator-0.34-sources.jar
+2018-08-26 20:27:20,233 [Worker-155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.webjars:webjars-locator:0.34
+2018-08-26 20:27:20,621 [Worker-155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/webjars/webjars-locator-core/0.35/webjars-locator-core-0.35-sources.jar
+2018-08-26 20:27:21,923 [Worker-155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/webjars/webjars-locator-core/0.35/webjars-locator-core-0.35-sources.jar
+2018-08-26 20:27:21,972 [Worker-155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.webjars:webjars-locator-core:0.35
+2018-08-26 20:27:22,373 [Worker-155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloading https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9-sources.jar
+2018-08-26 20:27:31,369 [Worker-155: Download sources and javadoc] INFO  o.e.m.c.i.e.AbstractTransferListenerAdapter - Downloaded https://repo.maven.apache.org/maven2/org/apache/commons/commons-compress/1.9/commons-compress-1.9-sources.jar
+2018-08-26 20:27:31,537 [Worker-155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-compress:1.9
+2018-08-26 20:27:31,539 [Worker-155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.webjars:webjars-locator:0.34
+2018-08-26 20:27:31,541 [Worker-155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.webjars:webjars-locator-core:0.35
+2018-08-26 20:27:31,542 [Worker-155: Download sources and javadoc] INFO  o.e.m.j.internal.DownloadSourcesJob - Downloaded sources for org.apache.commons:commons-compress:1.9
+2018-08-26 20:27:45,655 [Worker-156: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:27:45,655 [Worker-156: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:27:45,659 [Worker-156: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:27:45,662 [Worker-156: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:27:45,662 [Worker-156: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 20:47:35,808 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.example:demo:0.0.1-SNAPSHOT @ /home/sfalsin/lab/demo/pom.xml.
+2018-08-26 20:47:38,560 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationconsumer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationconsumer/pom.xml.
+2018-08-26 20:47:40,113 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationproducer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationproducer/pom.xml.
+2018-08-26 20:47:41,654 [Worker-4: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.meupag:sbas:0.0.1-SNAPSHOT @ /home/sfalsin/lab/sbas/pom.xml.
+2018-08-26 20:48:06,769 [Worker-18: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:48:06,776 [Worker-18: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:48:06,852 [Worker-18: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:48:06,858 [Worker-18: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:48:06,858 [Worker-18: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 20:50:03,052 [Worker-5: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:50:03,059 [Worker-5: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:50:03,062 [Worker-5: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:50:03,073 [Worker-5: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:50:03,073 [Worker-5: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 20:51:15,158 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:51:15,158 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:51:15,163 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:51:15,172 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:51:15,172 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/demo/src/test/resources
+2018-08-26 20:51:17,759 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:51:17,760 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:51:17,769 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:51:17,773 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:51:17,773 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 20:51:19,208 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:51:19,208 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:51:19,215 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:51:19,219 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:51:19,219 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 20:51:20,835 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:51:20,837 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:51:20,852 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:51:20,857 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:51:20,857 [Worker-2: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbas/src/test/resources
+2018-08-26 20:54:37,691 [Worker-14: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:54:37,693 [Worker-14: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:54:37,696 [Worker-14: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:54:37,703 [Worker-14: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:54:37,703 [Worker-14: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 20:55:28,890 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:55:28,891 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:55:28,892 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:55:28,900 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:55:28,901 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/demo/src/test/resources
+2018-08-26 20:55:30,187 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:55:30,187 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:55:30,192 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:55:30,196 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:55:30,196 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 20:55:31,320 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:55:31,320 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:55:31,322 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:55:31,336 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:55:31,336 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 20:55:32,086 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:55:32,087 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:55:32,093 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:55:32,096 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:55:32,097 [Worker-5: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbas/src/test/resources
+2018-08-26 20:55:50,847 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2018-08-26 20:55:51,422 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.pag:notificationproducer:0.0.1-SNAPSHOT @ /home/sfalsin/lab/notificationproducer/pom.xml.
+2018-08-26 20:55:52,302 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/main/java
+2018-08-26 20:55:52,303 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 20:55:52,304 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /notificationproducer/src/main/resources
+2018-08-26 20:55:52,305 [Worker-10: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /notificationproducer/src/test/java
+2018-08-26 20:55:52,559 [Worker-10: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2018-08-26 20:55:59,320 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:55:59,321 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 20:55:59,325 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 20:55:59,334 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 20:55:59,334 [Worker-3: Build Project] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 20:59:53,747 [Worker-12: Updating Maven Dependencies] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: br.com.meupag:sbac3:0.0.1-SNAPSHOT @ /home/sfalsin/lab/sbac3/pom.xml.
+2018-08-26 21:04:22,800 [Worker-2: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:04:22,801 [Worker-2: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:04:22,804 [Worker-2: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:04:22,808 [Worker-2: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:04:22,808 [Worker-2: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 21:06:05,031 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:06:05,037 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:06:05,039 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:06:05,042 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:06:05,042 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/demo/src/test/resources
+2018-08-26 21:06:06,628 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:06:06,628 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:06:06,632 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:06:06,642 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:06:06,643 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 21:06:08,035 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:06:08,036 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:06:08,040 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:06:08,046 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:06:08,047 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 21:06:08,699 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:06:08,699 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:06:08,706 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:06:08,709 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:06:08,710 [Worker-7: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbas/src/test/resources
+2018-08-26 21:07:26,554 [Worker-22: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:07:26,555 [Worker-22: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:07:26,556 [Worker-22: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:07:26,560 [Worker-22: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:07:26,560 [Worker-22: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 21:08:55,691 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:08:55,691 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:08:55,693 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:08:55,696 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:08:55,696 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/demo/src/test/resources
+2018-08-26 21:08:56,947 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:08:56,948 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:08:56,950 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:08:56,954 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:08:56,954 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 21:08:58,032 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:08:58,033 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:08:58,040 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:08:58,047 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:08:58,047 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 21:08:58,588 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:08:58,589 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:08:58,591 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:08:58,594 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:08:58,594 [Worker-22: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbas/src/test/resources
+2018-08-26 21:12:01,102 [Worker-21: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:12:01,109 [Worker-21: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:12:01,111 [Worker-21: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:12:01,114 [Worker-21: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:12:01,115 [Worker-21: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 21:15:05,045 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:15:05,046 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:15:05,047 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:15:05,061 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:15:05,062 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/demo/src/test/resources
+2018-08-26 21:15:05,972 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:15:05,972 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:15:05,979 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:15:05,986 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:15:05,986 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 21:15:06,750 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:15:06,751 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:15:06,763 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:15:06,766 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:15:06,766 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 21:15:07,300 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:15:07,300 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:15:07,309 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:15:07,312 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:15:07,313 [Worker-21: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbas/src/test/resources
+2018-08-26 21:22:04,140 [Worker-7: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:22:04,141 [Worker-7: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:22:04,143 [Worker-7: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:22:04,146 [Worker-7: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:22:04,146 [Worker-7: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 21:24:00,685 [Worker-20: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:24:00,686 [Worker-20: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:24:00,688 [Worker-20: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:24:00,692 [Worker-20: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:24:00,692 [Worker-20: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 21:28:58,053 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:28:58,054 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:28:58,057 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:28:58,060 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:28:58,060 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/demo/src/test/resources
+2018-08-26 21:28:58,878 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:28:58,878 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:28:58,881 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:28:58,884 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:28:58,887 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 21:28:59,676 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:28:59,676 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:28:59,689 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:28:59,709 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:28:59,709 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 21:29:00,142 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:29:00,142 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:29:00,144 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:29:00,147 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:29:00,147 [Worker-20: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbas/src/test/resources
+2018-08-26 21:35:21,539 [Worker-7: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:35:21,540 [Worker-7: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:35:21,541 [Worker-7: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:35:21,543 [Worker-7: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:35:21,544 [Worker-7: Launching notificationproducer - NotificationproducerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 21:56:20,404 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:56:20,405 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:56:20,406 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:56:20,412 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:56:20,412 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/demo/src/test/resources
+2018-08-26 21:56:21,167 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:56:21,168 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:56:21,169 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:56:21,172 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:56:21,172 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 21:56:22,087 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:56:22,087 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:56:22,090 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:56:22,095 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:56:22,095 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 21:56:22,562 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:56:22,568 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:56:22,570 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:56:22,573 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:56:22,573 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbas/src/test/resources
+2018-08-26 21:59:26,439 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:59:26,439 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:59:26,441 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:59:26,443 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:59:26,444 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/demo/src/test/resources
+2018-08-26 21:59:27,406 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:59:27,406 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:59:27,414 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:59:27,423 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:59:27,423 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 21:59:28,186 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:59:28,187 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:59:28,199 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:59:28,201 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:59:28,202 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 21:59:28,767 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:59:28,767 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 21:59:28,769 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 21:59:28,779 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 21:59:28,780 [Worker-55: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbas/src/test/resources
+2018-08-26 22:03:37,228 [Worker-59: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:03:37,229 [Worker-59: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 22:03:37,231 [Worker-59: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 22:03:37,233 [Worker-59: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:03:37,233 [Worker-59: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 22:08:42,015 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:08:42,015 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 22:08:42,017 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 22:08:42,019 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:08:42,020 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/demo/src/test/resources
+2018-08-26 22:08:42,927 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:08:42,927 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 22:08:42,929 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 22:08:42,932 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:08:42,932 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 22:08:43,771 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:08:43,775 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 22:08:43,783 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 22:08:43,789 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:08:43,793 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationproducer/src/test/resources
+2018-08-26 22:08:44,191 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:08:44,191 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 22:08:44,193 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 22:08:44,195 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:08:44,196 [Worker-61: Building Workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/sbas/src/test/resources
+2018-08-26 22:10:03,528 [Worker-58: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:10:03,529 [Worker-58: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 22:10:03,530 [Worker-58: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 22:10:03,532 [Worker-58: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:10:03,532 [Worker-58: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 22:13:01,807 [Worker-64: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:13:01,808 [Worker-64: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 22:13:01,809 [Worker-64: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 22:13:01,813 [Worker-64: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:13:01,813 [Worker-64: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 22:19:09,267 [Worker-59: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:19:09,268 [Worker-59: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 22:19:09,270 [Worker-59: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 22:19:09,274 [Worker-59: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:19:09,274 [Worker-59: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
+2018-08-26 22:28:59,564 [Worker-74: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:28:59,565 [Worker-74: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2018-08-26 22:28:59,567 [Worker-74: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2018-08-26 22:28:59,569 [Worker-74: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2018-08-26 22:28:59,569 [Worker-74: Launching notificationconsumer - NotificationconsumerApplication] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /home/sfalsin/lab/notificationconsumer/src/test/resources
