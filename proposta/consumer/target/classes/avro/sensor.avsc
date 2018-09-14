@@ -1,0 +1,21 @@
+{
+  "type" : "record",
+  "name" : "Sensor",
+  "namespace" : "com.example",
+  "fields" : [ {
+    "name" : "id",
+    "type" : "string"
+  }, {
+    "name" : "temperature",
+    "type" : "float",
+    "default" : 0.0
+  }, {
+    "name" : "acceleration",
+    "type" : "float",
+    "default" : 0.0
+  }, {
+    "name" : "velocity",
+    "type" : "float",
+    "default" : 0.0
+  } ]
+}
