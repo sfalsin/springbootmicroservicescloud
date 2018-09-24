@@ -1,2 +1,6 @@
-/home/marcio/workspace/proposta/producer1/target/generated-sources/avro/com/example/Sensor.java
-/home/marcio/workspace/proposta/producer1/src/main/java/sample/producer1/Producer1Application.java
+/home/sfalsin/lab/GitHub/springbootmicroservicescloud/proposta/producer1/src/main/java/sample/producer1/ClientWebSocket.java
+/home/sfalsin/lab/GitHub/springbootmicroservicescloud/proposta/producer1/target/generated-sources/avro/com/example/Proc1.java
+/home/sfalsin/lab/GitHub/springbootmicroservicescloud/proposta/producer1/src/main/java/sample/producer1/Producer1Application.java
+/home/sfalsin/lab/GitHub/springbootmicroservicescloud/proposta/producer1/src/main/java/sample/producer1/Producer.java
+/home/sfalsin/lab/GitHub/springbootmicroservicescloud/proposta/producer1/target/generated-sources/avro/com/example/Sensor.java
+/home/sfalsin/lab/GitHub/springbootmicroservicescloud/proposta/producer1/src/main/java/sample/producer1/WSService.java

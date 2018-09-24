@@ -1,7 +1,8 @@
 package sample.producer1;
 
-import com.example.Sensor;
-
+import java.lang.management.ManagementFactory;
+import java.util.Random;
+import java.util.UUID;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -15,47 +16,97 @@ import org.springframework.cloud.stream.schema.client.SchemaRegistryClient;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.support.MessageBuilder;
+import org.springframework.scheduling.annotation.Async;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurerAdapter;
 
-import java.util.Random;
-import java.util.UUID;
+import com.example.Proc1;
+import com.example.Sensor;
+
 
 @SpringBootApplication
 @EnableBinding(Source.class)
 @EnableSchemaRegistryClient
-@RestController
-public class Producer1Application {
+@Controller
+@EnableWebMvc
+public class Producer1Application extends WebMvcConfigurerAdapter{
 
 	@Autowired
 	private Source source;
 
+	@Autowired
+	WSService sender;
+	
+	@Value("${server.port}")
+	private String serverPort;
+	
 	private Random random = new Random();
 
 	public static void main(String[] args) {
 		SpringApplication.run(Producer1Application.class, args);
 	}
 
-	@RequestMapping(value = "/messages", method = RequestMethod.POST)
-	public String sendMessage() {
-		source.output().send(MessageBuilder.withPayload(randomSensor()).build());
+
+	@RequestMapping(value = "/messages/{msgs}/{partitions}", method = RequestMethod.GET)
+	@ResponseBody
+	public String sendMessage(@PathVariable(value="msgs") Integer msgs, @PathVariable(value="partitions") Integer partitions) {
+		loop(msgs,partitions);
 		//AnaliseCPF acpf = new AnaliseCPF();
 		//acpf.setCpf(UUID.randomUUID().toString());
 		//acpf.setDataNascimento(UUID.randomUUID().toString());
 		//acpf.setId(UUID.randomUUID().toString());
 		//ssource.output().send(MessageBuilder.withPayload(acpf).build());
-		return "ok, have fun with v1 payload!";
+		return msgs+" mensagens enviadas!";
 	}
 
-	private Sensor randomSensor() {
+	@RequestMapping(value = "/monitor", method = RequestMethod.GET)
+	public String monitor() {
+		return "dashboard";
+	}
+
+	@Async
+	private void loop(Integer msgs, Integer partitions) {
+		Integer bloco = (int) Math.round(((double)msgs / partitions)+0.5d);
+				//Math.ceil((double)msgs/partitions);
+		for(int x=1;x<=msgs;x++) {
+			source.output().send(MessageBuilder.withPayload(randomProc1()).setHeader("partitionKey", Math.round(x/bloco)+1).build());
+			try {
+
+				sender.getSocket().sendMessage("{\"tipo\":\"producer\",\"id\":\"" + Producer1Application.getProcessId("falhou") + "\", \"port\":\""+serverPort+"\" , \"value\":\""
+						+ (Math.round(x/bloco)+1) + "\"}");
+				System.out.println("msg enviada!");
+			} catch (Exception ex) {
+				try {
+					sender.tryConnect();
+				} catch (Exception e) {
+				}
+			}
+			System.out.println("@@@ partição "+(Math.round(x/bloco)+1));
+		}
+
+	}
+	
+	private Sensor randomProc1() {
 		Sensor sensor = new Sensor();
 		sensor.setId(UUID.randomUUID().toString() + "-v1");
 		sensor.setAcceleration(random.nextFloat() * 10);
 		sensor.setVelocity(random.nextFloat() * 100);
 		sensor.setTemperature(random.nextFloat() * 50);
 		sensor.setTeste(2.0f);
+		return sensor;
+	}
+
+	private Proc1 randomSensor() {
+		Proc1 sensor = new Proc1();
+		sensor.setId(UUID.randomUUID().toString() + "-v1");
+		sensor.setValor(1.0f);
 		return sensor;
 	}
 
@@ -82,6 +133,33 @@ public class Producer1Application {
 		}
 	}
 
+	@Override
+	public void addResourceHandlers(ResourceHandlerRegistry registry) {
+	  if (!registry.hasMappingForPattern("/**")) {
+	     registry.addResourceHandler("/**").addResourceLocations("classpath:/static/");
+	  }
+	}
+	
+	public static String getProcessId(final String fallback) {
+		// Note: may fail in some JVM implementations
+		// therefore fallback has to be provided
+
+		// something like '<pid>@<hostname>', at least in SUN / Oracle JVMs
+		final String jvmName = ManagementFactory.getRuntimeMXBean().getName();
+		final int index = jvmName.indexOf('@');
+
+		if (index < 1) {
+			// part before '@' empty (index = 0) / '@' not found (index = -1)
+			return fallback;
+		}
+
+		try {
+			return Long.toString(Long.parseLong(jvmName.substring(0, index)));
+		} catch (NumberFormatException e) {
+			// ignore
+		}
+		return fallback;
+	}
 }
 
 

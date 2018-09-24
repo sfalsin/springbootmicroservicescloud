@@ -1,13 +1,27 @@
 spring:
   cloud:
     stream:
+      kafka:
+        binder:
+          autoAddPartitions: true
+          minPartitionCount: 2
+      default:
+        producer:  &defaultProducerBindings
+          headerMode: raw
+          partitionCount: 12
       bindings:
         output:
           contentType: application/*+avro
-          destination: sensor-topic
+          destination: proc12-topic
+          producer:
+            <<: *defaultProducerBindings
+            partitionKeyExpression: headers['partitionKey']
+            #partitionKeyExpression: payload.id
       schemaRegistryClient:
         endpoint: http://localhost:8081
       schema:
         avro:
-          schema-locations: classpath:avro/sensor.avsc
+          schema-locations: classpath:avro/proc1.avsc
 server.port: 9009
+producer:
+  url: localhost:9011

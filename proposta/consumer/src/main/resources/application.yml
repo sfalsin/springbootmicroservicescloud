@@ -1,12 +1,20 @@
 spring:
+  kafka:
+    consumer:
+      group-id: proc1
   cloud:
     stream:
       bindings:
         input:
-          destination: sensor-topic
+          group: proc1
+          contentType: application/*+avro
+          destination: proc12-topic
+          consumer:
+            headerMode: raw
       schemaRegistryClient:
         endpoint: http://localhost:8081
       schema:
         avro:
-          schema-locations: classpath:avro/sensor.avsc
-server.port: 9999
+          schema-locations: classpath:avro/proc1.avsc
+producer:
+  url: localhost:9011

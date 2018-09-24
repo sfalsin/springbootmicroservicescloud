@@ -1,5 +1,6 @@
-sample/consumer/ConsumerApplication$ConfluentSchemaRegistryConfiguration.class
 com/example/Sensor$Builder.class
-sample/consumer/ConsumerApplication.class
 com/example/Sensor$1.class
 com/example/Sensor.class
+sample/consumer/ConsumerApplication$ConfluentSchemaRegistryConfiguration.class
+sample/consumer/ConsumerApplication.class
+com/example/Proc1$1.class

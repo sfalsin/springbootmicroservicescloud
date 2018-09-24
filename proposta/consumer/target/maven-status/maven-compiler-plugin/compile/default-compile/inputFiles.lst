@@ -1,2 +1,6 @@
-/home/marcio/workspace/proposta/consumer/src/main/java/sample/consumer/ConsumerApplication.java
-/home/marcio/workspace/proposta/consumer/target/generated-sources/avro/com/example/Sensor.java
+/home/sfalsin/lab/GitHub/springbootmicroservicescloud/proposta/consumer/src/main/java/sample/consumer/WSService.java
+/home/sfalsin/lab/GitHub/springbootmicroservicescloud/proposta/consumer/src/main/java/sample/consumer/ClientWebSocket.java
+/home/sfalsin/lab/GitHub/springbootmicroservicescloud/proposta/consumer/src/main/java/sample/consumer/ConsumerApplication.java
+/home/sfalsin/lab/GitHub/springbootmicroservicescloud/proposta/consumer/target/generated-sources/avro/com/example/Sensor.java
+/home/sfalsin/lab/GitHub/springbootmicroservicescloud/proposta/consumer/target/generated-sources/avro/com/example/Proc1.java
+/home/sfalsin/lab/GitHub/springbootmicroservicescloud/proposta/consumer/src/main/java/sample/consumer/Producer.java
