@@ -2,8 +2,15 @@ spring:
   kafka:
     consumer:
       group-id: proc1
+      client-id: c1
   cloud:
     stream:
+      kafka:
+        binder:
+          configuration:
+            partition:
+              assignment:
+                strategy: org.apache.kafka.clients.consumer.RoundRobinAssignor
       bindings:
         input:
           group: proc1

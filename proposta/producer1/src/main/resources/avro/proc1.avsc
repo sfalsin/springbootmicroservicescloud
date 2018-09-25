@@ -1,0 +1,9 @@
+{
+  "namespace" : "com.example",
+  "type" : "record",
+  "name" : "Proc1",
+  "fields" : [
+    {"name":"id","type":"string"},
+    {"name":"valor", "type":"float", "default":0.0}
+  ]
+}

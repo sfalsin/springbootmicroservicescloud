@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+<title>Monitor</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css"
+	href="/vendor/bootstrap/css/bootstrap.min.css"
+	th:href="@{/vendor/bootstrap/css/bootstrap.min.css}" />
+<link rel="stylesheet" type="text/css"
+	href="/fonts/font-awesome-4.7.0/css/font-awesome.min.css"
+	th:href="@{/fonts/font-awesome-4.7.0/css/font-awesome.min.css}" />
+<link rel="stylesheet" type="text/css"
+	href="/vendor/animate/animate.css"
+	th:href="@{/vendor/animate/animate.css}" />
+<link rel="stylesheet" type="text/css"
+	href="/vendor/select2/select2.min.css"
+	th:href="@{/vendor/select2/select2.min.css}" />
+<link rel="stylesheet" type="text/css"
+	href="/vendor/perfect-scrollbar/perfect-scrollbar.css"
+	th:href="@{/vendor/perfect-scrollbar/perfect-scrollbar.css}" />
+<link rel="stylesheet" type="text/css" href="/css/util.css"
+	th:href="@{/css/util.css}" />
+<link rel="stylesheet" type="text/css" href="/css/main.css"
+	th:href="@{/css/main.css}" />
+
+<script type="text/javascript">
+	var ws = new WebSocket("ws://localhost:9011/websocket");
+	var myMap = new Map();
+	var records = 0;
+	function sendMsg() {
+		ws.send(document.getElementById("msg").value);
+	}
+	ws.onmessage = function(event) {
+		if (event.data.indexOf("{") > -1) {
+			var a = JSON.parse(event.data);
+			showRow(a.id, a.value);
+			//addItem(a.id, a.value);
+			//myMap.set(a.id, a.value);
+		}
+
+		console.log("server mgs:", event.data);
+	}
+	ws.onerror = function(event) {
+		alert("Server err:"+event.data);
+		console.log("Server err:", event.data);
+	}
+	ws.onopen = function(event){
+		console.log("Connected!");
+		ws.send("monitor");
+	}
+	ws.onclose = function(event){
+		console.log("Closed!");
+	}
+
+	function addItem(id, value) {
+		var ul = document.getElementById("dynamic-list");
+		var li = document.getElementById("li-" + id);
+		if (li === undefined || li === null) {
+			li = document.createElement("li");
+		}
+		li.setAttribute('id', "li-" + id);
+		li.innerHTML = value;
+		//li.appendChild(document.createTextNode(value));
+		ul.appendChild(li);
+	}
+
+	function showRow(server, partition) {
+		records = records + 1;
+		var tbl = document.getElementById("dynamic-table");
+		var row = document.getElementById("srv-" + server + "" + partition);
+
+		var col1 = document.getElementById("col1-" + server + "" + partition);
+		var col2 = document.getElementById("col2-" + server + "" + partition);
+		var col3 = document.getElementById("col3-" + server + "" + partition);
+
+		if (col1 === undefined || col1 === null) {
+			col1 = document.createElement("td");
+			col1.setAttribute('id', "col1-" + server + "" + partition);
+			col2 = document.createElement("td");
+			col2.setAttribute('id', "col2-" + server + "" + partition);
+			col3 = document.createElement("td");
+			col3.setAttribute('id', "col3-" + server + "" + partition);
+			col3.innerHTML = "0";
+		}
+		col1.innerHTML = server;
+		col2.innerHTML = partition;
+		col3.innerHTML = parseInt(col3.innerHTML) + 1;
+
+		if (row === undefined || row === null) {
+			row = document.createElement("tr");
+			row.setAttribute('id', "srv-" + server + "" + partition);
+			row.appendChild(col1);
+			row.appendChild(col2);
+			row.appendChild(col3);
+			tbl.appendChild(row);
+		}
+		//li.setAttribute('id',"li-"+id);
+		//li.innerHTML= value;
+		//li.appendChild(document.createTextNode(value));
+		//ul.appendChild(li);
+	}
+</script>
+
+</head>
+
+<body>
+	<div class="limiter">
+		<div class="container-table100">
+			<div class="wrap-table100">
+				<div class="table100 ver1 m-b-110">
+					<div class="table100-head">
+						<table>
+							<thead>
+								<tr class="row100 head">
+									<th class="cell100 column1">Servidor</th>
+									<th class="cell100 column2">Partição</th>
+									<th class="cell100 column3">Registros</th>
+								</tr>
+							</thead>
+						</table>
+					</div>
+
+					<div class="table100-body js-pscroll">
+						<table>
+							<tbody id="dynamic-table">
+							</tbody>
+						</table>
+					</div>
+				</div>
+</body>
+</html>

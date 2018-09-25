@@ -69,7 +69,7 @@ public class ConsumerApplication {
 		}
 		System.out.println("@@@ msg " + this.counter);
 		try {
-			Thread.sleep(50);
+			Thread.sleep(80);
 		} catch (InterruptedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
