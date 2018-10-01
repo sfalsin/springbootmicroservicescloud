@@ -1,6 +1,8 @@
 .*
 !/.gitignore
 
+*target/**
+*.metadata/**
 .metadata
 bin/
 tmp/

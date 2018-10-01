@@ -6,6 +6,10 @@ spring:
   cloud:
     stream:
       kafka:
+        bindings:
+          input:
+            consumer:
+              auto-rebalance-enabled: true
         binder:
           configuration:
             partition:
@@ -18,6 +22,10 @@ spring:
           destination: proc12-topic
           consumer:
             headerMode: raw
+            
+            #default-retryable: 
+            #retryable-exceptions:
+              
       schemaRegistryClient:
         endpoint: http://localhost:8081
       schema:
@@ -25,3 +33,5 @@ spring:
           schema-locations: classpath:avro/proc1.avsc
 producer:
   url: localhost:9011
+server:
+  port: 8088

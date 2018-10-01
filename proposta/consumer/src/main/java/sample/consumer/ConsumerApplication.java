@@ -1,16 +1,14 @@
 package sample.consumer;
 
-import com.example.Proc1;
-import com.example.Sensor;
-
-import java.io.IOException;
+import java.lang.annotation.Annotation;
 import java.lang.management.ManagementFactory;
-import java.net.URISyntaxException;
-
-import javax.websocket.DeploymentException;
+import java.lang.reflect.InvocationTargetException;
+import java.lang.reflect.Method;
+import java.util.Set;
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+import org.reflections.Reflections;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.SpringApplication;
@@ -21,20 +19,29 @@ import org.springframework.cloud.stream.messaging.Sink;
 import org.springframework.cloud.stream.schema.client.ConfluentSchemaRegistryClient;
 import org.springframework.cloud.stream.schema.client.EnableSchemaRegistryClient;
 import org.springframework.cloud.stream.schema.client.SchemaRegistryClient;
+import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.messaging.Message;
 import org.springframework.scheduling.annotation.Async;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 @SpringBootApplication
 @EnableBinding(Sink.class)
 @EnableSchemaRegistryClient
 @ComponentScan("sample.consumer")
+@Controller
 public class ConsumerApplication {
 
 	@Autowired
 	WSService sender;
+	
+	@Autowired
+	private ApplicationContext context;
 	
 	@Value("${server.port}")
 	private String serverPort;
@@ -43,6 +50,7 @@ public class ConsumerApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumerApplication.class, args);
+		
 	}
 
 	private static Integer counter = 0;
@@ -77,6 +85,38 @@ public class ConsumerApplication {
 
 	}
 
+	@RequestMapping(value = "/classes", method = RequestMethod.GET)
+	@ResponseBody
+	public String[] sendMessage() {
+		Reflections reflections = new Reflections("sample.consumer");
+		Set<Class<?>> controllers = 
+			    reflections.getTypesAnnotatedWith(Controller.class);
+		for(Class<?> clazz:controllers) {
+			//for(Annotation anno:clazz.getAnnotation(Controller.class)) {
+				Class<? extends Annotation> type = clazz.getAnnotation(Controller.class).annotationType();
+	            for (Method method : type.getDeclaredMethods()) {
+	                Object value;
+					try {
+						value = method.invoke(clazz.getAnnotation(Controller.class), (Object[])null);
+		                System.out.println(" " + method.getName() + ": " + value);
+					} catch (IllegalAccessException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (IllegalArgumentException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					} catch (InvocationTargetException e) {
+						// TODO Auto-generated catch block
+						e.printStackTrace();
+					}
+	            }				
+			//}
+		}
+		String[] listaBeans = context.getBeanNamesForAnnotation(Controller.class);
+		return listaBeans;
+	}
+	
+	
 	@Configuration
 	static class ConfluentSchemaRegistryConfiguration {
 		@Bean
@@ -88,6 +128,7 @@ public class ConsumerApplication {
 		}
 	}
 
+	
 	public static String getProcessId(final String fallback) {
 		// Note: may fail in some JVM implementations
 		// therefore fallback has to be provided
